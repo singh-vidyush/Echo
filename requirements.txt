@@ -1,0 +1,17 @@
+langchain
+langchain_community
+langchain_classic
+langchain_experimental
+langchain_text_splitters
+langchain_huggingface
+langchain_chroma
+chromadb
+sentence_transformers
+huggingface_hub
+python_dotenv
+pypdf
+docx2txt
+google_genai
+scikit-learn
+networkx
+jq
