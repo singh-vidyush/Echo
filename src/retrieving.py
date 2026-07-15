@@ -8,7 +8,7 @@ class Retrieve:
         self.gemini_api = gemini_api
         self.gemini_model = gemini_model
 
-    def data_retrieve(self, question):
+    def data_retrieve(self):
         retriever = self.vector_db.as_retriever(search_kwargs= {"k": self.top_k})
         client = genai.Client(api_key= self.gemini_api)
 
@@ -47,4 +47,4 @@ class Retrieve:
                 contents= prompt
             )
 
-            return response.text
+            print(response.text)
